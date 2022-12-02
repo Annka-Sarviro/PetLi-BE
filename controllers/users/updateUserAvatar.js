@@ -28,7 +28,7 @@ const updateUserAvatar = async (req, res) => {
     res.json(avatar);
   } catch (error) {
     await fs.unlink(req.files.avatar.filepath);
-    throw createError(401, "Not authorized");
+    throw createError(401, "Not avatar");
   }
 };
 
