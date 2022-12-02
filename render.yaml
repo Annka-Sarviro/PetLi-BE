@@ -3,7 +3,7 @@ services:
     name: group-project-petly-be
     env: node
     plan: free
-    repo: https://github.com/Max-Loktionov/petly-be
+    repo: https://github.com/Annka-Sarviro/PetLi-BE
     branch: main
     buildCommand: yarn install
     startCommand: yarn start
